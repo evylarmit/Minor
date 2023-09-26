@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap" rel="stylesheet">
+    <script src="weatherapi.js"></script>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Animal crossing Map</title>
+</head>
+<body>
+    <div id="myNav" class="overlay">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <div class="overlay-content">
+          <a href="#">About</a>
+          <a href="#">Services</a>
+          <a href="#">Clients</a>
+          <a href="#">Contact</a>
+        </div>
+      </div>
+
+    <div class="navbar">
+        <span style="cursor:pointer" onclick="openNav()" class="openbtn">&#9776;</span>
+        <h1 class="navbar-header">Hollytown</h1>
+    </div>
+    <div class="background">
+        <img src="img/background.png">
+    </div>
+    <div class="weather-box">
+        <h1 class="weather-header">Het weer in uw locatie</h1>
+        <div class="weather-applicatie">
+            <h2 id="location"> </h2>
+            <p id="condition"> </p>
+            <p id="temperature"> </p>
+        </div>
+        <input type="text" placeholder="Voer een locatie in" id="search-bar">
+        <div class="weather-logo-box">
+            <img src="img/weatherlogo.jpg" class="weather-logo">
+        </div>
+        <button id="search-btn">Zoek</button>
+    </div>
+</body>
+</html>
