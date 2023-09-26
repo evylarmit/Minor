@@ -6,7 +6,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap" rel="stylesheet">
-    <script src="weatherapi.js"></script>
+    <script src="weatherapi.js" defer></script>
     <script src="script.js"></script>
     <link rel="stylesheet" href="style.css">
     <title>Animal crossing Map</title>
@@ -29,9 +29,99 @@
     <div class="background">
         <img src="img/background.png">
     </div>
+    <div class="popUp-container">
+        <div class="popup">
+            <button onclick="popUp()" class="popUpButton"></button>
+            <span class="popuptext" id="myPopup">Plaza</span>
+          </div>
+          <div class="popup">
+            <button onclick="popUp()" class="popUpButton"></button>
+            <span class="popuptext" id="myPopup">Airport</span>
+          </div>
+          <div class="popup">
+            <button onclick="popUp()" class="popUpButton"></button>
+            <span class="popuptext" id="myPopup">Market</span>
+          </div>
+          <div class="popup">
+            <button onclick="popUp()" class="popUpButton"></button>
+            <span class="popuptext" id="myPopup">Lake</span>
+          </div>
+          <div class="popup">
+            <button onclick="popUp()" class="popUpButton"></button>
+            <span class="popuptext" id="myPopup">Look out</span>
+          </div>
+          <div class="popup">
+            <button onclick="popUp()" class="popUpButton"></button>
+            <span class="popuptext" id="myPopup">Able sisters</span>
+          </div>
+          <div class="popup">
+            <button onclick="popUp()" class="popUpButton"></button>
+            <span class="popuptext" id="myPopup">Nooks cranny</span>
+          </div>
+          <div class="popup">
+            <button onclick="popUp()" class="popUpButton"></button>
+            <span class="popuptext" id="myPopup">Tree sale</span>
+          </div>
+          <div class="popup">
+            <button onclick="popUp()" class="popUpButton"></button>
+            <span class="popuptext" id="myPopup">The university</span>
+          </div>
+          <div class="popup">
+            <button onclick="popUp()" class="popUpButton"></button>
+            <span class="popuptext" id="myPopup">Book shop</span>
+          </div>
+          <div class="popup">
+            <button onclick="popUp()" class="popUpButton"></button>
+            <span class="popuptext" id="myPopup">Eko</span>
+          </div>
+          <div class="popup">
+            <button onclick="popUp()" class="popUpButton"></button>
+            <span class="popuptext" id="myPopup">Erik</span>
+          </div>
+          <div class="popup">
+            <button onclick="popUp()" class="popUpButton"></button>
+            <span class="popuptext" id="myPopup">Fauna</span>
+          </div>
+          <div class="popup">
+            <button onclick="popUp()" class="popUpButton"></button>
+            <span class="popuptext" id="myPopup">Maple</span>
+          </div>
+          <div class="popup">
+            <button onclick="popUp()" class="popUpButton"></button>
+            <span class="popuptext" id="myPopup">Teddy</span>
+          </div>
+          <div class="popup">
+            <button onclick="popUp()" class="popUpButton"></button>
+            <span class="popuptext" id="myPopup">Chevre</span>
+          </div>
+          <div class="popup">
+            <button onclick="popUp()" class="popUpButton"></button>
+            <span class="popuptext" id="myPopup">Poppy</span>
+          </div>
+          <div class="popup">
+            <button onclick="popUp()" class="popUpButton"></button>
+            <span class="popuptext" id="myPopup">Beau</span>
+          </div>
+          <div class="popup">
+            <button onclick="popUp()" class="popUpButton"></button>
+            <span class="popuptext" id="myPopup">Lolly</span>
+          </div>
+          <div class="popup">
+            <button onclick="popUp()" class="popUpButton"></button>
+            <span class="popuptext" id="myPopup">Whitney</span>
+          </div>
+          <div class="popup">
+            <button onclick="popUp()" class="popUpButton"></button>
+            <span class="popuptext" id="myPopup">Rudy</span>
+          </div>
+          <div class="popup">
+            <button onclick="popUp()" class="popUpButton"></button>
+            <span class="popuptext" id="myPopup">Chocolate Milk Stand</span>
+          </div>
+    </div>
     <div class="weather-box">
         <h1 class="weather-header">Het weer in uw locatie</h1>
-        <div class="weather-applicatie">
+        <div class="weather-applicatie" id="weather-applicatie">
             <h2 id="location"> </h2>
             <p id="condition"> </p>
             <p id="temperature"> </p>
@@ -40,7 +130,7 @@
         <div class="weather-logo-box">
             <img src="img/weatherlogo.jpg" class="weather-logo">
         </div>
-        <button id="search-btn">Zoek</button>
+        <button id="search-btn" onclick="flipflop()">Zoek</button>
     </div>
 </body>
 </html>

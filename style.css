@@ -125,8 +125,68 @@ body{
     width: 150px;
     font-size: 36px;
     margin-top: 260px;
-    margin-left: 540px;
+    margin-left: 310px;
     color: white;
     position: absolute;
     font-family: 'Bree Serif', serif;
+}
+
+.weather-applicatie{
+  position: absolute;
+  margin-top: 50px;
+  margin-left: 50px;
+  text-align: left;
+  font-size: 30px;
+}
+
+#location{
+  margin-top: 50px;
+  margin-bottom: 0;
+}
+
+#condition{
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+#temperature{
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.popup {
+  position: absolute;
+  cursor: pointer;
+}
+
+.popup .popuptext {
+  visibility: hidden;
+  width: 550px;
+  height: 600px;
+  font-size: 36px;
+  background-color: white;
+  color: #99d8f5;
+  text-align: left;
+  border-radius: 15px;
+  padding: 8px 0;
+  position: absolute;
+  z-index: 1;
+  margin-left: 120px;
+  margin-top: -650px;
+}
+
+
+.popup .show {
+  visibility: visible;
+  -webkit-animation: fadeIn 1s;
+  animation: fadeIn 1s
+}
+
+.popUpButton{
+  width: 35px;
+  height: 35px;
+  background-color: #87c1db;
+  border: 5px white solid;
+  border-radius: 50%;
+  position: absolute;
 }
