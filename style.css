@@ -190,3 +190,141 @@ body{
   border-radius: 50%;
   position: absolute;
 }
+
+#plaza{
+  position: absolute;
+  top: -350px;
+  left: 330px;
+}
+
+#airport{
+  position: absolute;
+  top: -120px;
+  left: 250px;
+}
+
+#market{
+  position: absolute;
+  top: -255px;
+  left: 390px;
+}
+
+#lake{
+  position: absolute;
+  top: -585px;
+  left: 140px;
+}
+
+#look-out{
+  position: absolute;
+  top: -385px;
+  left: 480px;
+}
+
+#able-sisters{
+  position: absolute;
+  top: -315px;
+  left: 475px;
+}
+
+#nooks-cranny{
+  position: absolute;
+  top: -200px;
+  left: 510px;
+}
+
+#tree-sale{
+  position: absolute;
+  top: -550px;
+  left: 375px;
+}
+
+#the-university{
+  position: absolute;
+  top: -450px;
+  left: 340px;
+}
+
+#book-shop{
+  position: absolute;
+  top: -380px;
+  left: 590px;
+}
+
+#eko{
+  position: absolute;
+  top: -210px;
+  left: 590px;
+}
+
+#erik{
+  position: absolute;
+  top: -410px;
+  left: 120px;
+}
+
+#fauna{
+  position: absolute;
+  top: -360px;
+  left: 120px;
+}
+
+#beau{
+  position: absolute;
+  top: -410px;
+  left: 170px;
+}
+
+#poppy{
+  position: absolute;
+  top: -340px;
+  left: 180px;
+}
+
+#maple{
+  position: absolute;
+  top: -550px;
+  left: 295px;
+}
+
+#teddy{
+  position: absolute;
+  top: -290px;
+  left: 110px;
+}
+
+#chevre{
+  position: absolute;
+  top: -610px;
+  left: 480px;
+}
+
+#lolly{
+  position: absolute;
+  top: -610px;
+  left: 540px;
+}
+
+#whitney{
+  position: absolute;
+  top: -610px;
+  left: 610px;
+}
+
+#rudy{
+  position: absolute;
+  top: -260px;
+  left: 590px;
+}
+
+#chocolate-milk-stand{
+  position: absolute;
+  top: -530px;
+  left: 440px;
+}
+
+#ice-rink{
+  position: absolute;
+  top: -540px;
+  left: 525px;
+}
