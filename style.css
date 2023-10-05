@@ -168,13 +168,26 @@ body{
   color: #99d8f5;
   text-align: left;
   border-radius: 15px;
-  padding: 8px 0;
+  padding: 8px;
+  padding-left: 25px;
   position: absolute;
   z-index: 1;
-  margin-left: 120px;
-  margin-top: -650px;
+  left: 100px;
+  top: -650px;
+  transition: 0.3ms;
 }
 
+.popUpButtonClose{
+  width: 35px;
+  height: 35px;
+  background-color: #be4848;
+  border: 5px #be4848 solid;
+  border-radius: 50%;
+  position: absolute;
+  margin-left: 490px;
+  top: 50px;
+  transition: 0.3ms;
+}
 
 .popup .show {
   visibility: visible;

@@ -37,5 +37,3 @@ function getWeatherData(location) {
         console.log(error);
       });
   });
-  
-  
